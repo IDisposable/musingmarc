@@ -16,9 +16,12 @@ I see a TON of me in [this tremendous article](http://nymag.com/news/features/27
 [![](http://imagegen.last.fm/DarkSeas/recenttracks/1/IDisposable.gif)](http://www.last.fm/user/IDisposable/?chartstyle=DarkSeas)
 
 ---
-### Comments:
-#### good article marc, thanks for sharing it!
+
+### Comments
+
+#### good article marc, thanks for sharing …
+
 [Eric M](https://www.blogger.com/profile/18267801195123404761 "noreply@blogger.com") - <time datetime="2007-07-20T15:08:00.000-05:00">Jul 5, 2007</time>
 
 good article marc, thanks for sharing it!
-<hr />
+---

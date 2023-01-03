@@ -79,8 +79,11 @@ AND TimeSlot = DateAdd(hh, DateDiff(hh, 0, GetUtcDate()), 0)
 ```
 
 ---
-### Comments:
-#### So - rather than having a dual update / insert sta...
+
+### Comments
+
+#### So - rather than having a dual update / insert sta…
+
 [digiguru]( "noreply@blogger.com") - <time datetime="2009-10-22T03:39:55.000-05:00">Oct 4, 2009</time>
 
 So - rather than having a dual update / insert statement, why not have a single table that stores each view as a row.  
@@ -102,8 +105,11 @@ Group By ContentID, CAST(CONVERT(varchar, GetDate(), 101) AS DateTime)
   
   
 Plus you have the ability to graph views over time. I am assuming that you want fast insert, slow select, because this is an adminstrators view?
-<hr />
-#### Your change would be good if I A) could store th...
+---
+
+#### Your change would be good if I A) could store th…
+
+
 [Marc]( "noreply@blogger.com") - <time datetime="2009-10-22T14:34:38.000-05:00">Oct 4, 2009</time>
 
 Your change would be good if I  
@@ -115,4 +121,4 @@ B) wasn't storing them elsewhere \[have a track server\]
 C) didn't care about performance \[I display this hit count EVERY time I display the entry, so it has to be very fast on query\]  
   
 So, given the schema is what I have to have, this is a very safe way to do UPSERT-like behavior for SQL Server 2000+. I wonder if there is a better technique, but this is very fast and known to work.
-<hr />
+---

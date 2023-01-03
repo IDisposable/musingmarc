@@ -45,12 +45,15 @@ private ICacheItemExpiration[] GetCacheExpirations()
 [![](http://imagegen.last.fm/DarkSeas/recenttracks/1/IDisposable.gif)](http://www.last.fm/user/IDisposable/?chartstyle=DarkSeas)
 
 ---
-### Comments:
-#### I couldn't agree more.  
+
+### Comments
+
+#### I couldn't agree more…
+
 This ambiguous construct...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-04-11T19:40:00.000-05:00">Apr 3, 2007</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-04-11T19:40:00.000-05:00">Apr 3, 2007</time>
 
 I couldn't agree more.  
 This ambiguous constructor problem is explained well in "Refactoring to Patterns":  
 http://industriallogic.com/xp/refactoring/constructorCreation.html
-<hr />
+---

@@ -349,10 +349,13 @@ Once again, I'm doing the reflection work once in a static constructor. In my ne
 3.  The calls to `this.Owner.InvalidateCache()` replaces the bit of class-envy in the original Microsoft version that I talked about in [part one](http://musingmarc.blogspot.com/2006/07/enough-with-whining-just-fix.html "Fixing ObjectDataSource").
 
 ---
-### Comments:
-#### Hi Marc,  
+
+### Comments
+
+#### Hi Marc…
+
 this is indeed a major pain you are tr...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-22T10:15:00.000-05:00">Aug 2, 2006</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-22T10:15:00.000-05:00">Aug 2, 2006</time>
 
 Hi Marc,  
 this is indeed a major pain you are trying to resolve here... I think it will be of great use for us.  
@@ -360,16 +363,22 @@ However, I could not find the source code for AcquringObjectDataSource class in 
 Will it be possible to make it available, as well as a working sample if you got one.  
   
 Thank you in advance, Eyal.
-<hr />
-#### I had the same issues; we went down a different pa...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-04-12T03:15:00.000-05:00">Apr 4, 2007</time>
+---
+
+#### I had the same issues; we went down a different pa…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-04-12T03:15:00.000-05:00">Apr 4, 2007</time>
 
 I had the same issues; we went down a different path using a proxy and generics.  
   
 [Posted Here](http://adammills.wordpress.com/2007/04/12/the-evil-of-objectdatasource-overcome/)
-<hr />
-#### It's of a great use for us using BLToolkit for ORM...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-02-04T03:14:00.000-06:00">Feb 1, 2008</time>
+---
+
+#### It's of a great use for us using BLToolkit for ORM…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-02-04T03:14:00.000-06:00">Feb 1, 2008</time>
 
 It's of a great use for us using BLToolkit for ORM! Thank you!  
 A single problem - schema isn't transferred correctly to visual controls of ASP.NET when using your wonderful AODS (refresh schema doesn't work).  
@@ -379,8 +388,11 @@ I'd appreciate any help to kyrel\[at\]list\[dot\]ru
   
 BR,  
 Mikhail Kirillov
-<hr />
-#### Extremely useful post by the way...  
+---
+
+#### Extremely useful post by the way..…
+
+
   
 By sett...
 [Andrew](https://www.blogger.com/profile/01174630370937086286 "noreply@blogger.com") - <time datetime="2008-06-05T15:36:00.000-05:00">Jun 4, 2008</time>
@@ -392,9 +404,12 @@ By setting the update method on your ODS to one that does NOT take a business ob
 if (dataObjectType != null)  
   
 This is the 8th line of code in the ExecuteUpdate method of the ODSV
-<hr />
-#### This is a fantastic article. Using your data sourc...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-07-03T04:08:00.000-05:00">Jul 4, 2008</time>
+---
+
+#### This is a fantastic article. Using your data sourc…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-07-03T04:08:00.000-05:00">Jul 4, 2008</time>
 
 This is a fantastic article. Using your data source it is easy to plug your own custom business objects into ObjectDataSource. As you can now update objects properly, and not have to bind to every single property using hidden controls.  
   
@@ -420,8 +435,11 @@ return loadedEntity;
   
 //return Activator.CreateInstance(dataObjectType);  
 }
-<hr />
-#### Obviously Microsoft made internal changes in .NET ...
+---
+
+#### Obviously Microsoft made internal changes in .NET …
+
+
 [Unknown](https://www.blogger.com/profile/14213138785266454410 "noreply@blogger.com") - <time datetime="2012-09-12T07:45:52.120-05:00">Sep 3, 2012</time>
 
 Obviously Microsoft made internal changes in .NET 4.5 and this means some code of the AcquiringObjectDataSourceView is broken.  
@@ -472,4 +490,4 @@ return s\_BuildObjectValue.Invoke(null, new object\[\] { value, destinationType,
 }  
   
 This should work!
-<hr />
+---

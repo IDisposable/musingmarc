@@ -25,9 +25,12 @@ To answer the most obvious question, because there's nothing else going on at th
 \[0\] [Bring on the Aunt Jemima treatment and P.J. Soles!](http://en.wikiquote.org/wiki/Stripes)
 
 ---
-### Comments:
-#### Fixing the link-rot for the Phoenix arrest
+
+### Comments
+
+#### Fixing the link-rot for the Phoenix arr…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2012-01-01T21:26:43.023-06:00">Jan 0, 2012</time>
 
 Fixing the link-rot for the Phoenix arrest [link](http://www.commercialappeal.com/news/2011/nov/05/jailhouse-frock/)
-<hr />
+---

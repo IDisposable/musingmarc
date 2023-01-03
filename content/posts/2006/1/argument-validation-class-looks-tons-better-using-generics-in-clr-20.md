@@ -8,7 +8,8 @@ tags = [".Net","generic","C#","validation"]
 +++
 
 I've had this class around for a long time, finally decided to update it to use generic types instead of tons of overloads. It's tons nicer this way. Contact me if you want a version with XML documentation (which just looks ugly in the blog).
-```
+
+```csharp
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -183,19 +184,29 @@ namespace IDisposable.Utilities
 ```
 
 ---
-### Comments:
-#### Can you throw out a .zip link with the .cs and .xm...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-02-16T12:28:00.000-06:00">Feb 4, 2006</time>
+
+### Comments
+
+#### Can you throw out a .zip link with the .cs and .xm…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-02-16T12:28:00.000-06:00">Feb 4, 2006</time>
 
 Can you throw out a .zip link with the .cs and .xml doc? This thing is a goldmine!
-<hr />
-#### Done, see
+
+---
+
+#### Done, …
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-02-16T19:28:00.000-06:00">Feb 4, 2006</time>
 
-Done, see [here.](http://musingmarc.blogspot.com/2006/02/some-utilities-for-net-development.html)
-<hr />
-#### Updated to fix Enum
+Done, see [here.](/2006/02/some-utilities-for-net-development.html)
+
+---
+
+#### Updated to fix E…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-03-01T13:41:00.000-06:00">Mar 3, 2006</time>
 
-Updated to fix Enum [bug](http://musingmarc.blogspot.com/2006/03/systemenumcompareto-needs-_114123536776382301.html)
-<hr />
+Updated to fix Enum [bug](/2006/03/systemenumcompareto-needs-_114123536776382301.html)
+
+---

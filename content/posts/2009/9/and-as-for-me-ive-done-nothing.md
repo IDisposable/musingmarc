@@ -10,18 +10,27 @@ tags = ["rant"]
 My last post was 18 months ago... I deleted the two that followed it because they were time-sensitive. I've been sucked into twitter, StackOverflow, parenthood and real life. Coming soon, I hope, will be a bunch of posts on some C# hacks and T-SQL things I've been up to... mostly ASP.Net and twitter related (e.g. huge datasets)
 
 ---
-### Comments:
-#### Parenthood must have sucked a lot more out of you ...
+
+### Comments
+
+#### Parenthood must have sucked a lot more out of you …
+
 [Guest]( "noreply@blogger.com") - <time datetime="2009-09-18T19:06:52.000-05:00">Sep 5, 2009</time>
 
 Parenthood must have sucked a lot more out of you than Stack Overflow, 'cuz I've been on SO about the same length of time you've been, but my Rep is about 3X yours! :-)
-<hr />
-#### Indeed it has,... I don't go there as much as ...
+---
+
+#### Indeed it has,... I don't go there as much as …
+
+
 [IDIsposable]( "noreply@blogger.com") - <time datetime="2009-09-18T22:14:50.000-05:00">Sep 5, 2009</time>
 
 Indeed it has,... I don't go there as much as I would like (mentioned it because it's Joel's project).
-<hr />
-#### Hey Marc I found you on Twitter and followed the ...
+---
+
+#### Hey Marc I found you on Twitter and followed the …
+
+
 [Chris]( "noreply@blogger.com") - <time datetime="2010-02-02T18:52:36.000-06:00">Feb 2, 2010</time>
 
 Hey Marc  
@@ -33,4 +42,4 @@ Regards,
 Chris  
   
 crose@enticelabs.com
-<hr />
+---

@@ -13,7 +13,7 @@ Both worlds have need of the ability to link up the desired behavior, and they u
 
 So back to the string constants. How do we get the compiler/IDE to understand the connection? By making it a **code** link, of course. We want to replace those string literals with actual references, in some form, to the actual property or provider. This isn't a new problem, so it should come as no surprise that it's been tackled a couple of times recently for .Net development.
 
-Let us study a couple examples _and be **us** I mean you, I've finished my homework_.
+Let us study a couple examples _and by **us** I mean you, I've finished my homework_.
 
 The **wrong** way: [Get rid of nasty "string"](http://jroller.com/page/viveksingh123?entry=get_rid_of_nasty_strings)
 
@@ -28,20 +28,27 @@ What's the moral? If the code you are replacing is much easier to understand and
 **Update**: Of course this breaks down at pointing to properties because C# is overprotective, read the comments for the best-until-they-lighten-up-at-C#-land.
 
 ---
-### Comments:
-#### Actually, I can see his point, you can't use my ap...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-04-17T17:15:00.000-05:00">Apr 1, 2006</time>
 
-Actually, I can see his point, you can't use my approach for this stuff.  
-The compiler just won't let you do it.  
+### Comments
+
+#### Actually, I can see his point, you can't use my ap…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-04-17T17:15:00.000-05:00">Apr 1, 2006</time>
+
+Actually, I can see his point, you can't use my approach for this stuff.
+The compiler just won't let you do it.
   
 I gave it a try, and you can't get a delegate instance from a property, since the compiler thinks that you are trying to get the \_value\_ of the property, and not the getter method.
-<hr />
-#### Yes, delegates to the property accessors cannot be...
+
+---
+
+#### Yes, delegates to the property accessors cannot be…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-04-17T17:57:00.000-05:00">Apr 1, 2006</time>
 
-Yes, delegates to the property accessors cannot be generated in C# 2.0 (I hope it is something they fix for C# 3.0). In the meantime, I use another wrapper function like GetAge() which merely returns this.Age; To get the name of the method, you need something like this in the StaticReflection.cs file:  
-   
+Yes, delegates to the property accessors cannot be generated in C# 2.0 (I hope it is something they fix for C# 3.0). In the meantime, I use another wrapper function like GetAge() which merely returns this.Age; To get the name of the method, you need something like this in the StaticReflection.cs file:
+
+```csharp
   public static String MethodName<TRet>(Func<TRet> func0)  
   {  
     return func0.Method.Name;  
@@ -51,13 +58,17 @@ Yes, delegates to the property accessors cannot be generated in C# 2.0 (I hope i
   {  
     return func1.Method.Name;  
   }
-<hr />
-#### This is the best I can do:  
-using System;  
-usi...
+```
+
+---
+
+#### This is the best I can do…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-04-17T19:03:00.000-05:00">Apr 1, 2006</time>
 
-This is the best I can do:  
+This is the best I can do:
+
+```csharp
 using System;  
 using System.Collections.Generic;  
 using System.Text;  
@@ -67,23 +78,23 @@ namespace Whee
 {  
     class Person  
     {  
-        public int \_age;  
+        public int _age;  
    
         public int Age  
         {  
-            get { return \_age; }  
-            set { \_age = value; }  
+            get { return _age; }  
+            set { _age = value; }  
         }  
    
         // this method only exists to wrap the property get  
         public int GetAge()  
         {  
-            return \_age;  
+            return _age;  
         }  
    
         public Person()  
         {  
-            \_age = 42;  
+            _age = 42;  
         }  
     }  
    
@@ -103,7 +114,7 @@ namespace Whee
    
         delegate int GetAge();  
    
-        static void Main(string\[\] args)  
+        static void Main(string[] args)  
         {  
             Person me = new Person();  
             //GetAge getter = me.Age;     // cannot implicitly converty 'int' to 'GetAge'  
@@ -119,12 +130,17 @@ namespace Whee
         }  
     }  
 }
-<hr />
-#### If you want to pass properties by reference then y...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-04-20T12:13:00.000-05:00">Apr 4, 2006</time>
+```
 
-If you want to pass properties by reference then you should switch to Visual Basic. There are some VB features which C# does still lack like passing properties by reference:  
-  
+---
+
+#### If you want to pass properties by reference then y…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-04-20T12:13:00.000-05:00">Apr 4, 2006</time>
+
+If you want to pass properties by reference then you should switch to Visual Basic. There are some VB features which C# does still lack like passing properties by reference:
+
+```vb
 Module Module1  
   
 Public Class PropertyByRef  
@@ -142,8 +158,6 @@ System.Console.WriteLine("Got value " & value)
 value = 500  
 End Sub  
   
-  
-  
 Dim myValue As Integer  
 Property Value() As Integer  
 Get  
@@ -155,25 +169,27 @@ End Set
 End Property  
   
 End Class  
-  
-  
+
 Sub Main()  
   
 Dim inst = New PropertyByRef()  
 End Sub  
   
 End Module  
-  
-Yours,  
+```
+
+Yours,
   
 Alois Kraus
-<hr />
-#### Ahhhhh, my eyes! VB code!!!  
-  
-:) Seriously, ...
+
+---
+
+#### Ahhhhh, my eyes! VB code!!…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-04-20T12:17:00.000-05:00">Apr 4, 2006</time>
 
-Ahhhhh, my eyes! VB code!!!  
+Ahhhhh, my eyes! VB code!!!
   
 :) Seriously, this is just a stupid C# restriction that should be removed ASAP.
-<hr />
+
+---

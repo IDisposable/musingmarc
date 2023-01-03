@@ -20,9 +20,12 @@ SQL
 That's about it for this cut, I'll update when I think of others. Stay tuned for posts about language-specific and platform-specific books. Don't miss my [first part](http://musingmarc.blogspot.com/2006/06/my-must-read-book-list-part-1-basics.html) with the basics.
 
 ---
-### Comments:
-#### Since Snodgrass' book is out of print, he has made...
+
+### Comments
+
+#### Since Snodgrass' book is out of print, he has made…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-11-20T13:48:00.000-06:00">Nov 1, 2006</time>
 
 Since Snodgrass' book is out of print, he has made a [PDF available for **free**](http://www.cs.arizona.edu/~rts/publications.html)
-<hr />
+---

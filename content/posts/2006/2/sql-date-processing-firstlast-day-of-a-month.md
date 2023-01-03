@@ -30,13 +30,19 @@ _\[Via [http://www.ayende.com/Blog/PermaLink,guid,23fefdfe-22f1-4649-8e12-f36d06
 **UPDATE:** I've added a complete list of the ways to get first/last/next values for a date/week/month/quarter/year in SQL [here](http://musingmarc.blogspot.com/2006/07/more-on-dates-and-sql.html). (I also removed the horrid syntax coloring of this post, sorry).
 
 ---
-### Comments:
-#### Why the black background? It makes prints of the s...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-07-11T13:33:00.000-05:00">Jul 5, 2008</time>
+
+### Comments
+
+#### Why the black background? It makes prints of the s…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-07-11T13:33:00.000-05:00">Jul 5, 2008</time>
 
 Why the black background? It makes prints of the screen nasty.
-<hr />
-#### You print things? Tree killer :)  
+---
+
+#### You print things? Tree killer :…
+
+
   
 Seriously...
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-07-11T16:21:00.000-05:00">Jul 5, 2008</time>
@@ -44,4 +50,4 @@ Seriously...
 You print things? Tree killer :)  
   
 Seriously, though, I could make a print-based CSS.
-<hr />
+---

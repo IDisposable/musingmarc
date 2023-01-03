@@ -9,9 +9,9 @@ tags = []
 
 Questions often come up regarding .Net 2.0's generics; how much code is shared, when are the specialized versions created, and how much does it cost? While I want to repeat the refrain I often use—_You don't really **need** to know this_—it is useful information. The short version:
 
-*   There is **one** copy of the generic IL
-*   The **JIT** creates specializations as they are needed
-*   All reference-type specializations share **one** JITted copy
-*   Each value-type spawns a **separate** specialization
+* There is **one** copy of the generic IL
+* The **JIT** creates specializations as they are needed
+* All reference-type specializations share **one** JITted copy
+* Each value-type spawns a **separate** specialization
 
 For more information, please refer to [this](http://ognjenbajic.com/blog/2005/11/generics-where-does-generic-code-get.html) excellent post from [Ognjen Bajić](http://ognjenbajic.com/blog/)

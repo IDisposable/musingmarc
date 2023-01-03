@@ -8,7 +8,8 @@ tags = ["provider","exception","best practice"]
 +++
 
 If you are doing [provider](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnaspnet/html/asp02182004.asp) or other [similar](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnaspnet/html/asp04212004.asp) constructs that have late-constructed [singleton](http://) behavior, you need to be sure that anyone using the singleton will not proceed with an erroneously constructed object. But **how** do you let them know something went wrong originally? Simply rethrow the original exception again! I found this pattern in the [System.Web.Profile.ProviderBase](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnaspnet/html/asp02182004.asp) class thanks to [Reflector](http://www.aisto.com/roeder/dotnet/)
-```
+
+```csharp
 public class Default : Singleton
 {
     public Default()

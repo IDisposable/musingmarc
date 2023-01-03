@@ -88,8 +88,11 @@ For even more fun, here's some Emoji sequences that can be used for eye charts o
 > // random planets "♃♄♅♆♇"
 
 ---
-### Comments:
-#### I quite like your RandomReadableString() extension...
+
+### Comments
+
+#### I quite like your RandomReadableString() extension…
+
 [Unknown](https://www.blogger.com/profile/14348757128504178693 "noreply@blogger.com") - <time datetime="2012-12-06T07:11:51.184-06:00">Dec 4, 2012</time>
 
 I quite like your RandomReadableString() extension method.  
@@ -97,21 +100,30 @@ I quite like your RandomReadableString() extension method.
 Although is the string guaranteed to be unique?  
   
 I would have thought email validation codes, for example, would need to be unique.
-<hr />
-#### Well, there's "absolutely unique" an...
+---
+
+#### Well, there's "absolutely unique" an…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2012-12-06T23:32:48.138-06:00">Dec 4, 2012</time>
 
 Well, there's "absolutely unique" and "statistically unique". If you generate a long enough string, it's going to "for all practical purposes" be unique. If you NEED it to be a guarantee, then you put it in a database/store and put a unique index on the value... if you get a collision (not likely), you just loop back and generate another one.  
   
 As for EVCs being unique, you can make them be fairly long, linked to the user, and time-sensitive and that'll cure most ills...
-<hr />
-#### Ooh, pretty pretty bad strings.
+---
+
+#### Ooh, pretty pretty bad strin…
+
+
 [The Director](http://qahatesyou.com "noreply@blogger.com") - <time datetime="2013-01-31T13:31:53.237-06:00">Jan 4, 2013</time>
 
 Ooh, pretty pretty bad strings.
-<hr />
-#### It is nice, but it couldn't pass a statistical...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2014-09-03T04:44:56.605-05:00">Sep 3, 2014</time>
+---
+
+#### It is nice, but it couldn't pass a statistical…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2014-09-03T04:44:56.605-05:00">Sep 3, 2014</time>
 
 It is nice, but it couldn't pass a statistical random test:  
 \- you crate a randomized sequence with _RNGCrypto_, which can contain 255 different values  
@@ -119,4 +131,4 @@ It is nice, but it couldn't pass a statistical random test:
 \- if the length is not divider of 255, there will be a segment at the begin of the usable character range which will be more frequent than the others  
   
 btw. it is a good function to create almost random values :)
-<hr />
+---

@@ -18,9 +18,12 @@ Beth and baby are both fine, thanks for asking.
 [Brooks... Xen Brooks](http://picasaweb.google.com/idisposable/XavierEliBrooksIsBorn/photo#5117678976782819538 "Brooks... Xavier Eli Brooks")
 
 ---
-### Comments:
-#### Congrats Marc.
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-10-05T05:10:00.000-05:00">Oct 5, 2007</time>
+
+### Comments
+
+#### Congrats Ma…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-10-05T05:10:00.000-05:00">Oct 5, 2007</time>
 
 Congrats Marc.
-<hr />
+---

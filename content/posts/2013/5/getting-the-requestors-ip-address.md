@@ -165,9 +165,12 @@ namespace Phydeaux.Helpers
 ```
 
 ---
-### Comments:
-#### Hi. The ValidIp() method has an if statement that ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2013-05-25T12:06:35.567-05:00">May 6, 2013</time>
+
+### Comments
+
+#### Hi. The ValidIp() method has an if statement that …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2013-05-25T12:06:35.567-05:00">May 6, 2013</time>
 
 Hi.  
 The ValidIp() method has an if statement that always returns false, which i think is weird.  
@@ -175,14 +178,18 @@ The ValidIp() method has an if statement that always returns false, which i thin
 if (skipPrivate && ipAddr.AddressFamily == AddressFamily.InterNetwork) ....  
   
 /J
-<hr />
-#### skipPrivate is an argument to the public function ...
+---
+
+#### skipPrivate is an argument to the public function …
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2013-05-25T13:10:31.306-05:00">May 6, 2013</time>
 
 skipPrivate is an argument to the public function and is passed-through.
-<hr />
-#### Yeah, but should't if (range.Encompasses(addr)...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2013-05-25T13:21:44.625-05:00">May 6, 2013</time>
+---
+
+#### Yeah, but should't if (range.Encompasses(addr)…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2013-05-25T13:21:44.625-05:00">May 6, 2013</time>
 
 Yeah, but should't  
 if (range.Encompasses(addr))  
@@ -191,14 +198,20 @@ return false;
   
   
 return true instead?
-<hr />
-#### No, we're deciding if the IP we're looking...
+---
+
+#### No, we're deciding if the IP we're looking…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2013-05-25T13:25:00.546-05:00">May 6, 2013</time>
 
 No, we're deciding if the IP we're looking at is **valid**. If it is encompassed by one of the "private IP" ranges, it is **not** valid, so we return immediately.
-<hr />
-#### There seems to be a bug in the code posted. I th...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2013-05-30T18:11:33.103-05:00">May 4, 2013</time>
+---
+
+#### There seems to be a bug in the code posted. I th…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2013-05-30T18:11:33.103-05:00">May 4, 2013</time>
 
 There seems to be a bug in the code posted.  
   
@@ -209,8 +222,10 @@ if (skipPrivate && ipAddr.AddressFamily == AddressFamily.InterNetwork)
 should be !skipPrivate  
   
 And then outside of the iteration of s\_PrivateRanges there should not be a 'return false;'. That line should be removed. We only want to return false inside the iteration if the supplied IP address falls within the range.
-<hr />
-#### No.  
+---
+
+#### No…
+
 Please read the entire function and see wh...
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2013-05-30T18:37:47.119-05:00">May 4, 2013</time>
 
@@ -233,4 +248,4 @@ Please read the entire function and see what it is doing.
 6\. For the first header that yields a true from _ValidIP_ we return that string.  
   
 7\. Failing that, we simply return the _request.UserHostAddress_ that the .Net framework set.
-<hr />
+---

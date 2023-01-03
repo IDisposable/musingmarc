@@ -24,6 +24,16 @@ enableRobotsTXT = true
 name = "twitter"
 url = "https://twitter.com/IDisposable"
 
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/IDisposable"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://github365.com/@idisposable"
+rel = "me noopener"
+
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).

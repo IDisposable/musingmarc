@@ -140,14 +140,20 @@ Some notes are in order to explain that code:
 ~Next time~ In part 3, I'll talk about the issues in `ObjectDataSourceView` and present the replacement class [`AcquiringObjectDataSourceView`](http://musingmarc.blogspot.com/2006/07/i-can-see-clearly-now-pain-is-gone-or.html)
 
 ---
-### Comments:
-#### I'm not sure if it would solve all the issues you ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-02-15T12:56:00.000-06:00">Feb 4, 2007</time>
+
+### Comments
+
+#### I'm not sure if it would solve all the issues you …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-02-15T12:56:00.000-06:00">Feb 4, 2007</time>
 
 I'm not sure if it would solve all the issues you need to address, but a possible alternative approach to what you've done might be to hook into the ObjectCreating event of the ObjectDataSource. That should let you assign the data access component that you want as the ObjectInstance field of the ObjectDataSourceEventArgs. There's a decent explanation of doing that in the book "Pro ASP.NET 2.0 in C# 2005" by MacDonald and Szpuszta.
-<hr />
-#### This is exactly what I'm looking for!!! I need...
+---
+
+#### This is exactly what I'm looking for!!! I need…
+
+
 [Tim K.]( "noreply@blogger.com") - <time datetime="2010-10-15T17:50:29.000-05:00">Oct 5, 2010</time>
 
 This is exactly what I'm looking for!!! I need to execute an Update method in a formview that has more than one parameter. This little ditty you wrote about here helped me get a start to hook into the ObjectDataSource deep enough to add those parameters. Thank you!
-<hr />
+---

@@ -25,14 +25,20 @@ internal static bool DoesDbExist(SqlConnection conn, string database){    usi
 Someone please assure me that this is not how everyone else handles avoiding SQL injection.
 
 ---
-### Comments:
-#### That's pretty awesome. (Aren't SqlParameters great?)
+
+### Comments
+
+#### That's pretty awesome. (Aren't SqlParameters grea…
+
 [Brian Dukes](https://www.blogger.com/profile/07026014589345008284 "noreply@blogger.com") - <time datetime="2007-08-15T09:00:00.000-05:00">Aug 3, 2007</time>
 
 That's pretty awesome. (Aren't SqlParameters great?)
-<hr />
-#### Hahaha. I was reading your blog. This is great. ...
+---
+
+#### Hahaha. I was reading your blog. This is great. …
+
+
 [The Software Purist (http://www.softwarepurist.com)]( "noreply@blogger.com") - <time datetime="2009-12-02T07:14:54.000-06:00">Dec 3, 2009</time>
 
 Hahaha. I was reading your blog. This is great. I've seen things like this done before and it always makes me want to cry. :P In the particular case I'm thinking of, it was in C++, but the concept is the same. In my own experience, I typically use stored procedures, which mitigates a lot of the risk you were mentioning.
-<hr />
+---

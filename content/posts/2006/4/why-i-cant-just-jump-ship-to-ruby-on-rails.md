@@ -18,14 +18,21 @@ I what way is this comforting? Does it just not like my browser? **Don't ask _me
 You don't let people see your site because their UA string is too long?
 
 ---
-### Comments:
-#### That's Apache's mod\_security, not at all related t...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-04-05T18:29:00.000-05:00">Apr 3, 2006</time>
+
+### Comments
+
+#### That's Apache's mod\_security, not at all related t…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-04-05T18:29:00.000-05:00">Apr 3, 2006</time>
 
 That's Apache's mod\_security, not at all related to Rails... Just an FYI.
-<hr />
-#### Apache may be _causing_ the error, but I...
+
+---
+
+#### Apache may be _causing_ the error, but…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-04-05T19:50:00.000-05:00">Apr 3, 2006</time>
 
 Apache may be _causing_ the error, but I'm having trouble taking seriously any project where >50% of the proponents sites are not configured correctly.
-<hr />
+
+---

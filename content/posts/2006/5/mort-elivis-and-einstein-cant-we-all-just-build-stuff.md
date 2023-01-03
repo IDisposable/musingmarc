@@ -16,13 +16,16 @@ This really resounds with me today. I've been using [ASP.Net 2.0](http://www.asp
 No wonder we're all out here still creating the same set of applications (CRM, CMS, Order Entry, Portals, Aggregators, Forums, etc.) over and over instead of building something new.
 
 ---
-### Comments:
-#### You are so right !! :)  
+
+### Comments
+
+#### You are so right !! :…
+
   
 Sahil
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-05-30T01:57:00.000-05:00">May 2, 2006</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-05-30T01:57:00.000-05:00">May 2, 2006</time>
 
 You are so right !! :)  
   
 Sahil
-<hr />
+---

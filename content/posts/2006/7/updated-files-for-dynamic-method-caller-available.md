@@ -33,9 +33,12 @@ I'm sorry for any trouble this might cause, but I think it is worth it. _If you 
 **UPDATE** (27-July-2007 15:32): I changed the `Build` to skip access-checks when creating the `DynamicMethod`. This allows you to bind against private methods of classes even when the bound-to class is not on the inheritance path. Also fixed a bug with instance methods that are functions requiring no parameters not always binding correctly. If you downloaded before 15:30 CDT, please download again.
 
 ---
-### Comments:
-#### Ok, I've been employing the library to build an OR...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-18T12:40:00.000-05:00">Aug 5, 2006</time>
+
+### Comments
+
+#### Ok, I've been employing the library to build an OR…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-18T12:40:00.000-05:00">Aug 5, 2006</time>
 
 Ok, I've been employing the library to build an ORMapper that gets its direction from attributes (before you say that I'm an idiot because there are a million out there, it's for a non-relational database, and it doesn't use a query language, so that's why I'm building yet another ORMapper -- probably better termed an O-Associative mapper)  
   
@@ -60,21 +63,30 @@ which of course produces delegates that only differ by one parameter type value.
 How, and I feel there most likely is a way here somewhere, can I avoid having to do that with generics?  
   
 I realize that I can put in a generic there and specify the <T> in there, but then I'm still left doing a bunch of IF blocks somewhere else to figure out what goes in there... Am I missing something? Even if I have to generate some IL I'm up to the task, but do you have a way already with your library that I'm just seeing too flatly to identify?
-<hr />
-#### You can do partial generics and lazily instantiate...
+---
+
+#### You can do partial generics and lazily instantiate…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-08-18T14:24:00.000-05:00">Aug 5, 2006</time>
 
 You can do partial generics and lazily instantiate based on the attributes or reflected types. I'm working on a post right now.
-<hr />
-#### I've written this quick post, hope this is what yo...
+---
+
+#### I've written this quick post, hope this is what yo…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-08-18T16:24:00.000-05:00">Aug 5, 2006</time>
 
 I've written this quick post, hope this is what you are looking for: [Late delegate creation](http://musingmarc.blogspot.com/2006/08/how-to-do-late-dynamic-method-creation.html)
-<hr />
-#### Hi Marc,  
+---
+
+#### Hi Marc…
+
+
   
 I downloaded your version of the D...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-08-18T10:43:00.000-05:00">Aug 6, 2007</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-08-18T10:43:00.000-05:00">Aug 6, 2007</time>
 
 Hi Marc,  
   
@@ -91,9 +103,12 @@ If you're interested I can send you the code.
   
 Greets,  
 Nils Gruson
-<hr />
-#### I would love to integrate your changes into the co...
+---
+
+#### I would love to integrate your changes into the co…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2007-08-18T12:22:00.000-05:00">Aug 6, 2007</time>
 
 I would love to integrate your changes into the code... I'm hosting the code out at CodePlex now and there's already an outstanding request for this there.
-<hr />
+---

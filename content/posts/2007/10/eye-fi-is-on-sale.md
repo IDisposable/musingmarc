@@ -16,8 +16,11 @@ For those of you with CF cards instead... PFFFTT!
 [Eye-Fi](http://www.eye.fi/)
 
 ---
-### Comments:
-#### Hey Marc!  
+
+### Comments
+
+#### Hey Marc…
+
 There is a SD to CF adapter for ~$12 ...
 [Fotomeister](https://www.blogger.com/profile/16987131661399192105 "noreply@blogger.com") - <time datetime="2008-03-25T10:13:00.000-05:00">Mar 2, 2008</time>
 
@@ -27,4 +30,4 @@ There is a SD to CF adapter for ~$12 on ebay that should fix that last problem.
 [SD to SF adapter](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=270217394967)  
   
 That would make it cool as both my cameras take only CF cards.
-<hr />
+---

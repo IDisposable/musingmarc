@@ -13,9 +13,12 @@ Here's where I've spent at least one night by country.
 [create your own visited countries map](http://douweosinga.com/projects/visitedcountries) or [vertaling Duits Nederlands](http://www.tonjafabritz.com)
 
 ---
-### Comments:
-#### See also
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-11-02T08:45:00.000-06:00">Nov 4, 2006</time>
+
+### Comments
+
+#### See a…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-11-02T08:45:00.000-06:00">Nov 4, 2006</time>
 
 See also [43 Places](http://www.43places.com/person/phobia).
-<hr />
+---

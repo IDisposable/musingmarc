@@ -14,9 +14,12 @@ Amazing, really, that parents that struggle through the convoluted course of mod
 [![](http://imagegen.last.fm/DarkSeas/recenttracks/1/IDisposable.gif)](http://www.last.fm/user/IDisposable/?chartstyle=DarkSeas)
 
 ---
-### Comments:
-#### I'm an adoptive parent, so I can attest to that. ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-02-13T14:21:00.000-06:00">Feb 2, 2007</time>
+
+### Comments
+
+#### I'm an adoptive parent, so I can attest to that. …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-02-13T14:21:00.000-06:00">Feb 2, 2007</time>
 
 I'm an adoptive parent, so I can attest to that. There's no way anyone would put up with the crap they made us go through unless they really really wanted kids -- and planned to invest their whole selfs in them.
-<hr />
+---

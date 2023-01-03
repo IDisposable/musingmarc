@@ -19,14 +19,20 @@ So his example with my changes is:
 Thanks Noah!
 
 ---
-### Comments:
-#### Glad you find it useful. I like your updates! I'...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-07-13T18:16:00.000-05:00">Jul 4, 2006</time>
+
+### Comments
+
+#### Glad you find it useful. I like your updates! I'…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-07-13T18:16:00.000-05:00">Jul 4, 2006</time>
 
 Glad you find it useful. I like your updates! I'll have to give them a try. The slash should help make it more clear to the average reader the difference between NSEW and RL. Coolness. :)
-<hr />
-#### Good comments on Noah's Driving Directions Syntax....
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-07-22T18:48:00.000-05:00">Jul 6, 2006</time>
+---
+
+#### Good comments on Noah's Driving Directions Syntax.…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-07-22T18:48:00.000-05:00">Jul 6, 2006</time>
 
 Good comments on Noah's Driving Directions Syntax. I will have to incorporate them into my application of Noah's Syntax. Your "Coadified" word choice is clever.
-<hr />
+---

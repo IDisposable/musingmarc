@@ -49,9 +49,12 @@ public class PutMethods
 Note that you can easily build up the `Type[]` passed to `Type.MakeGenericType` based on things like an attribute class or configuration/XML markup.
 
 ---
-### Comments:
-#### :D Yes! Thanks! It's the missing piece to my puz...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-18T20:20:00.000-05:00">Aug 5, 2006</time>
+
+### Comments
+
+#### :D Yes! Thanks! It's the missing piece to my puz…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-18T20:20:00.000-05:00">Aug 5, 2006</time>
 
 :D Yes! Thanks! It's the missing piece to my puzzle! I owe you one!
-<hr />
+---

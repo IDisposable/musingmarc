@@ -36,16 +36,22 @@ Take that C# compiler, **I win!** Oh, and you guys on the JIT team... **you rock
 Technorati tags: [DynamicMethod](http://technorati.com/tags/DynamicMethod), [LCG](http://technorati.com/tags/LCG), [Lightweight Code Generation](http://technorati.com/tags/Lightweight%20Code%20Generation), [.Net 2.0](http://technorati.com/tags/.Net%202.0), [Generic](http://technorati.com/tags/Generic), [CodePlex](http://technorati.com/tags/CodePlex)
 
 ---
-### Comments:
-#### Really cool! So then... when is your dynamic langu...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-11-07T20:53:00.000-06:00">Nov 2, 2006</time>
+
+### Comments
+
+#### Really cool! So then... when is your dynamic langu…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-11-07T20:53:00.000-06:00">Nov 2, 2006</time>
 
 Really cool! So then... when is your dynamic language coming out? Joel P. might had better take a look at your numbers :)
-<hr />
-#### Nice job on this (I think) - Although I have to sa...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-12-02T19:56:00.000-06:00">Dec 6, 2006</time>
+---
+
+#### Nice job on this (I think) - Although I have to sa…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-12-02T19:56:00.000-06:00">Dec 6, 2006</time>
 
 Nice job on this (I think) - Although I have to say that I don't quite understand exactly what your code is doing or how it works. I will definitely peruse your source code to help me understand LCG as I am very interested in this topic.  
   
 Can you provide a brief example of how your code could be used to replace Reflection based OR/M mapping that relies heavily on Metadata/tags?
-<hr />
+---

@@ -12,19 +12,28 @@ Since I get so many hits for my [various](http://musingmarc.blogspot.com/2006/07
 Nice work, Mladen!
 
 ---
-### Comments:
-#### thanx! It's fun :))
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-12-17T07:07:00.000-06:00">Dec 0, 2006</time>
+
+### Comments
+
+#### thanx! It's fun …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-12-17T07:07:00.000-06:00">Dec 0, 2006</time>
 
 thanx!  
 It's fun :))
-<hr />
-#### Hi, Your site content are looking good and site de...
+---
+
+#### Hi, Your site content are looking good and site de…
+
+
 [Muruganatham](https://www.blogger.com/profile/10941654912240665311 "noreply@blogger.com") - <time datetime="2006-12-26T06:38:00.000-06:00">Dec 2, 2006</time>
 
 Hi, Your site content are looking good and site design, background color are irritating the viewer like me, pl update your blog design.
-<hr />
-#### I value the input of my readers as far as the cont...
+---
+
+#### I value the input of my readers as far as the cont…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-12-26T15:25:00.000-06:00">Dec 2, 2006</time>
 
 I value the input of my readers as far as the content, however the colors and such of my blog are my choices and reflect how my machine normally appears. I find the bog-standard black-text on white-background exceedingly bright and irritating.  
@@ -32,4 +41,4 @@ I value the input of my readers as far as the content, however the colors and su
 I am sorry that you find the blog hard to read, perhaps you should apply your own stylesheets to the page or simply disable the CSS in your browser.  
   
 Also, "pl" is not an English word, "please" is likely what you mean...
-<hr />
+---

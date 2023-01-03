@@ -18,14 +18,21 @@ Technorati tags: [LCG](http://technorati.com/tags/LCG), [Lightweight Code Genera
 [Lightweight Code Generation](http://technorati.com/tag/Lightweight+Code+Generation)
 
 ---
-### Comments:
-#### Man the ASP.NET team needs to look into something ...
+
+### Comments
+
+#### Man the ASP.NET team needs to look into something …
+
 [Rick Strahl](https://www.blogger.com/profile/07420160265480672656 "noreply@blogger.com") - <time datetime="2006-11-05T23:47:00.000-06:00">Nov 0, 2006</time>
 
 Man the ASP.NET team needs to look into something like this to stop breaking the framework with duplicated objects in ATLAS :-}... Like that whole ScriptManager vs. ClientScriptManager nightmare.
-<hr />
-#### Implementing duckTyping via your library would be ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-11-19T06:40:00.000-06:00">Nov 0, 2006</time>
+
+---
+
+#### Implementing duckTyping via your library would be …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-11-19T06:40:00.000-06:00">Nov 0, 2006</time>
 
 Implementing duckTyping via your library would be really cool.. I would just wondering if it would be possible to like customize the post/pre access code.. something like dynamic interceptors (see codeproject).. ??
-<hr />
+
+---

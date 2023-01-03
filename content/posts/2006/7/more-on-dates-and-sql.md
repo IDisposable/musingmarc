@@ -134,67 +134,87 @@ DATEADD(dd, DATEDIFF(dd, 0, GetDate()), 0) As Today
 For general reading about dates and time, might I suggest [this post's](http://musingmarc.blogspot.com/2006/04/oooo-cool.html) links.
 
 ---
-### Comments:
-#### Thank you! Very Helpful!!
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-05-03T15:33:00.000-05:00">May 4, 2007</time>
+
+### Comments
+
+#### Thank you! Very Helpfu…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-05-03T15:33:00.000-05:00">May 4, 2007</time>
 
 Thank you! Very Helpful!!
-<hr />
-#### Why the bias against math on columns? For smaller ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-01-16T15:03:00.000-06:00">Jan 3, 2008</time>
+---
+
+#### Why the bias against math on columns? For smaller …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-01-16T15:03:00.000-06:00">Jan 3, 2008</time>
 
 Why the bias against math on columns? For smaller databases losing an index isn't an issue, and results in much simpler queries, just my humble opinion.
-<hr />
-#### Sweeet tips on the dates...I've just used your adv...
+---
+
+#### Sweeet tips on the dates...I've just used your adv…
+
 [Mark Abraham](https://www.blogger.com/profile/00940934754906803851 "noreply@blogger.com") - <time datetime="2008-02-26T09:41:00.000-06:00">Feb 2, 2008</time>
 
 Sweeet tips on the dates...I've just used your advice for truncating the time. The customer wanted only to display the top of the hour.
-<hr />
-#### Is it possible that I can store date/time in "date...
+---
+
+#### Is it possible that I can store date/time in "date…
+
 [wsindhu](https://www.blogger.com/profile/15703570835943740801 "noreply@blogger.com") - <time datetime="2009-02-06T00:47:00.000-06:00">Feb 5, 2009</time>
 
-Is it possible that I can store date/time in "datetime" column like this...  
+Is it possible that I can store date/time in "datetime" column like this...
   
-"2009-02-06 11:39:25"  
+`"2009-02-06 11:39:25"`
   
-Do I have to use something in "formula" field?  
+Do I have to use something in "formula" field?
   
 Please do help me!
-<hr />
-#### SQL Server (and all the others) store DateTime val...
+---
+
+#### SQL Server (and all the others) store DateTime val…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2009-02-06T01:20:00.000-06:00">Feb 5, 2009</time>
 
 SQL Server (and all the others) store DateTime values in an internal binary representation that has NOTHING to do with how it is displayed for you when you make a query. What you need to do is specify the formatting you require in you client layer (where it belongs) or (at worst) in the SELECT statement. That said, your format is perfectly acceptable for an INSERT or UPDATE statement if single-quoted.
-<hr />
-#### You are a life saver :) many thanks.  
-  
-Rocky
-[Anonymous]( "noreply@blogger.com") - <time datetime="2009-02-17T09:15:00.000-06:00">Feb 2, 2009</time>
+---
 
-You are a life saver :) many thanks.  
+#### You are a life saver :) many thanks…
+
+Rocky
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2009-02-17T09:15:00.000-06:00">Feb 2, 2009</time>
+
+You are a life saver :) many thanks.
   
 Rocky
-<hr />
-#### If you use the suggested;  
-select dateadd(dd, d...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2009-04-05T22:55:00.000-05:00">Apr 0, 2009</time>
+---
+
+#### If you use the suggested…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2009-04-05T22:55:00.000-05:00">Apr 0, 2009</time>
 
 If you use the suggested;  
 select dateadd(dd, datediff (dd, 0, '20080327 23:59:59.999'), 0)  
 It actually returns 20080328 00:00:00.000  
 It is obviously a rounding issue but is there a way around it?
-<hr />
-#### .999 is beyond the precision I stated. You cannot ...
+---
+
+#### .999 is beyond the precision I stated. You cannot …
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2009-04-06T00:54:00.000-05:00">Apr 1, 2009</time>
 
 .999 is beyond the precision I stated. You cannot use anything higher than .997 because the resolution of SQL Server is 3 milliseconds.
-<hr />
-#### How about the first weekday of the last month? ;) ...
+---
+
+#### How about the first weekday of the last month? ;) …
+
 [Guest]( "noreply@blogger.com") - <time datetime="2009-07-22T23:40:14.000-05:00">Jul 3, 2009</time>
 
 How about the first weekday of the last month? ;) Anyone?
-<hr />
-#### Step by step First day of LAST month: SELECT DA...
+---
+
+#### Step by step First day of LAST month: SELECT DA…
+
+
 [IDIsposable]( "noreply@blogger.com") - <time datetime="2009-07-24T17:30:27.000-05:00">Jul 5, 2009</time>
 
 Step by step  
@@ -217,24 +237,36 @@ FROM (
 SELECT DATEADD(mm, DATEDIFF(mm, 0, @today) - 1 , 0) AS StartOfLastMonth  
 , DATEADD(wk, DATEDIFF(wk, 0, DATEADD(mm, DATEDIFF(mm, 0, @today) - 1, 0)), 0) AS RecentMonday  
 ) AS Fake
-<hr />
-#### Thanks for the info !
-[Anonymous]( "noreply@blogger.com") - <time datetime="2010-11-02T02:43:18.000-05:00">Nov 2, 2010</time>
+---
+
+#### Thanks for the inf…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2010-11-02T02:43:18.000-05:00">Nov 2, 2010</time>
 
 Thanks for the info !
-<hr />
-#### TheDate is not working in sql?
+---
+
+#### TheDate is not working in s…
+
+
 [San]( "noreply@blogger.com") - <time datetime="2010-11-11T02:02:31.000-06:00">Nov 4, 2010</time>
 
 TheDate is not working in sql?
-<hr />
-#### TheDate is meant to be where \_YOU\_ insert whatever...
+---
+
+#### TheDate is meant to be where \_YOU\_ insert whatever…
+
+
 [Marc Brooks]( "noreply@blogger.com") - <time datetime="2010-11-11T02:38:36.000-06:00">Nov 4, 2010</time>
 
 TheDate is meant to be where \_YOU\_ insert whatever date you want to manipulate... a column name, GETDATE(), etc...
-<hr />
-#### Regarding the "Monday of any week", I ne...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2011-10-10T02:04:23.573-05:00">Oct 1, 2011</time>
+---
+
+#### Regarding the "Monday of any week", I ne…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2011-10-10T02:04:23.573-05:00">Oct 1, 2011</time>
 
 Regarding the "Monday of any week", I needed to get the monday of any week, regardless of @@DATEFIRST settings. This the formula I came up with:  
 **  
@@ -245,4 +277,4 @@ What it does is for instance given tuesday, and datefirst =7 (sunday)
   
 For datefirst = 1(monday) it would be:  
 2+1+5=8%7=1 and substract 1, from the date, which gives monday
-<hr />
+---

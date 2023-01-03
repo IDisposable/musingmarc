@@ -164,9 +164,12 @@ Use this just like you would any other data source, for example, to build a `Rad
 **UPDATE**: Blogger ate my || in the code of Any
 
 ---
-### Comments:
-#### That is cool man...I like that. Thanks...
+
+### Comments
+
+#### That is cool man...I like that. Thanks…
+
 [Unknown](https://www.blogger.com/profile/17304139413081012567 "noreply@blogger.com") - <time datetime="2007-06-07T04:29:00.000-05:00">Jun 4, 2007</time>
 
 That is cool man...I like that. Thanks...
-<hr />
+---

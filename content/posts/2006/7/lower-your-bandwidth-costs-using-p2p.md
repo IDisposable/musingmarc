@@ -14,9 +14,12 @@ If you have _largish_ files you want to share, but are concerned with the speed 
 *   You can now use [RedSwoosh](http://www.redswoosh.com/learn_more_overview.php) to proxy the links. This also requires a client-side download, but they serve it up automatically.
 
 ---
-### Comments:
-#### It look like RedSwoosh needs a client install, too...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-07-11T00:42:00.000-05:00">Jul 2, 2006</time>
+
+### Comments
+
+#### It look like RedSwoosh needs a client install, too…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-07-11T00:42:00.000-05:00">Jul 2, 2006</time>
 
 It look like RedSwoosh needs a client install, too. Bummer.
-<hr />
+---

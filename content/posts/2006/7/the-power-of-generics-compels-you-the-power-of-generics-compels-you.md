@@ -119,39 +119,60 @@ IL_0007: /* 2a  |          */ ret
 As always, download [here](http://idisposable.googlepages.com/downloads)
 
 ---
-### Comments:
-#### Pedantry compels me to tell you that you spelled "...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-07-10T15:16:00.000-05:00">Jul 1, 2006</time>
+
+### Comments
+
+#### Pedantry compels me to tell you that you spelled "…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-07-10T15:16:00.000-05:00">Jul 1, 2006</time>
 
 Pedantry compels me to tell you that you spelled "compels" wrong. FYI.
-<hr />
-#### I'm a moron and KNOW I can't spell. Spell checking...
+---
+
+#### I'm a moron and KNOW I can't spell. Spell checking…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-07-10T15:25:00.000-05:00">Jul 1, 2006</time>
 
 I'm a moron and KNOW I can't spell. Spell checking the body is automatic, but the subject line? Thanks.
-<hr />
-#### wow. I'm speechless. here I am trying to write mys...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-17T00:13:00.000-05:00">Aug 4, 2006</time>
+---
+
+#### wow. I'm speechless. here I am trying to write mys…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-17T00:13:00.000-05:00">Aug 4, 2006</time>
 
 wow. I'm speechless. here I am trying to write myself some IL by hand to do what you've virtually automated via generics. I can see that I have a WHOLE lot to learn, but in the meantime, I think I'll have a look at Dynamic.cs and drink another diet mt. dew. Mahn! Very cool stuff, you win man.
-<hr />
-#### Do you still have the test case for this project.....
+---
+
+#### Do you still have the test case for this project..…
+
+
 [Unknown](https://www.blogger.com/profile/16068263371859826097 "noreply@blogger.com") - <time datetime="2008-05-26T20:45:00.000-05:00">May 1, 2008</time>
 
 Do you still have the test case for this project... I am running my own test and I couldn't replicate the result. I am testing the ToString() method for the Person class.
-<hr />
-#### The test project is part of the Dynamic library. H...
+---
+
+#### The test project is part of the Dynamic library. H…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-05-26T21:42:00.000-05:00">May 1, 2008</time>
 
 The test project is part of the Dynamic library. Head over to CodePlex and download [the Dynamic library](http://www.codeplex.com/Dynam<br/>ic). By the way, ToString() is not necessarily a very quick method dues to all the string manipulation, so its execution time might be swamping the runtime of all frameworks. This is a hazard of any micro-benchmarks...
-<hr />
-#### What about generic procedures and functions? I.e. ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-07-15T02:40:00.000-05:00">Jul 2, 2008</time>
+---
+
+#### What about generic procedures and functions? I.e. …
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-07-15T02:40:00.000-05:00">Jul 2, 2008</time>
 
 What about generic procedures and functions? I.e. T foo>T<( v1, v2, v3 ) or void bar>T<( T, T, T )?
-<hr />
-#### Doing binding to generics isn't really much differ...
+---
+
+#### Doing binding to generics isn't really much differ…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-07-15T14:38:00.000-05:00">Jul 2, 2008</time>
 
 Doing binding to generics isn't really much different, except you have to "fill in the blanks". I talk a little about that in [this post about late-bound dynamic](http://musingmarc.blogspot.com/2006/08/how-to-do-late-dynamic-method-creation.html), but if you have some ideas of how I can make it more transparent (like with a fluent interface) please give me an idea.
-<hr />
+---

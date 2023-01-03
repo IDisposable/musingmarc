@@ -15,19 +15,19 @@ Unfortunately, it's not all peaches and cream in .Net land. Frankly the solution
 
 #### Hard requirements
 
-*   I'm coding an ASP.Net 2.0 application
-*   The application has a select for the user to choose the language they want the application to be rendered in
-*   The selection is maintained in the ASP.Net Profile both for anonymous and logged-in users
-*   The selected language is used to force the servicing thread's `CurrentCulture` **and** `CurrentUICulture`
+* I'm coding an ASP.Net 2.0 application
+* The application has a select for the user to choose the language they want the application to be rendered in
+* The selection is maintained in the ASP.Net Profile both for anonymous and logged-in users
+* The selected language is used to force the servicing thread's `CurrentCulture` **and** `CurrentUICulture`
 
 #### Soft requirements
 
-*   We want to allow the setup user to define the locales they want in the list
-*   We want to default the list to all _installed_ translations available to based on the installed .Net runtime language packs.
+* We want to allow the setup user to define the locales they want in the list
+* We want to default the list to all _installed_ translations available to based on the installed .Net runtime language packs.
 
 So, first step is to enumerate the `CultureInfo` objects like this (using a custom business object called Locale and [WilsonORMapper](http://www.ormapper.net "The easiest way to map POCOs to a SQL database, Wilson's O/R Mapper"))
 
-```
+```csharp
 public static void Fill()
 {
     ObjectSpace space = Manager.ObjectSpace.IsolatedContext;
@@ -74,7 +74,7 @@ The other problem with this is the fact that I am getting back neutral cultures.
 
 Sigh... what to do? I take my hint from the path Michael has started down and do some more reflectoring. So after **much** digging, I find that the best I can do is catch is basically what Michael suggests, so I tried to minimize the number of exceptions thrown _and solve the neutral/specific culture issue_, so what I did was track the list of known installed neutral localizations and test the parents of each specific culture. The final code loos likes this:
 
-```
+```csharp
 // Grab a type that we know is in mscorlib
 private static readonly Assembly s_MSCorLib = Assembly.GetAssembly(typeof(System.Object));
  
@@ -156,20 +156,25 @@ private static bool AddIt(Dictionary<string, Locale> locales
 ```
 
 ---
-### Comments:
-#### Hi Marc,  
-  
-I actually explained the solution ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-04-12T14:59:00.000-05:00">Apr 3, 2006</time>
+
+### Comments
+
+#### Hi Marc…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-04-12T14:59:00.000-05:00">Apr 3, 2006</time>
 
 Hi Marc,  
   
 I actually explained the solution in my post -- rather than getting the Assembly by using a .NET Framework intrinsic type, get it from your own application!
-<hr />
-#### It's not that I don't want to handle the translati...
+
+---
+
+#### It's not that I don't want to handle the translati…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-04-12T16:14:00.000-05:00">Apr 3, 2006</time>
 
-It's not that I don't want to handle the translations I don't have... it's that I don't want the exceptions generated when the the appropriate Framework localization doesn't exist.  
+It's not that I don't want to handle the translations I don't have... it's that I don't want the exceptions generated when the the appropriate Framework localization doesn't exist.
   
 I precisely DO want the list of localizations available FOR the Framework, not mine... I'm the slave to what is installed on the client's server. They control the language packs installed, and I want my list to be driven by what the Framework can offer \[in this install\].
-<hr />
+
+---

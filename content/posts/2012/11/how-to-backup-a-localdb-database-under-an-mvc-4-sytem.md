@@ -42,21 +42,30 @@ namespace SomeSimpleProject.Controllers
 ```
 
 ---
-### Comments:
-#### Just what I need but you didn't include the re...
+
+### Comments
+
+#### Just what I need but you didn't include the re…
+
 [Unknown](https://www.blogger.com/profile/04795306849055145440 "noreply@blogger.com") - <time datetime="2012-12-16T15:58:02.398-06:00">Dec 0, 2012</time>
 
 Just what I need but you didn't include the required references. Thanks!
-<hr />
-#### This is what i was looking for, plus it has the en...
+---
+
+#### This is what i was looking for, plus it has the en…
+
+
 [Unknown](https://www.blogger.com/profile/03861533854630998450 "noreply@blogger.com") - <time datetime="2013-01-18T09:43:35.119-06:00">Jan 5, 2013</time>
 
 This is what i was looking for, plus it has the entity framework base.  
 Thanks a lot!!
-<hr />
-#### This is exactly what i need even in the entity fra...
+---
+
+#### This is exactly what i need even in the entity fra…
+
+
 [Unknown](https://www.blogger.com/profile/03861533854630998450 "noreply@blogger.com") - <time datetime="2013-01-18T09:45:48.877-06:00">Jan 5, 2013</time>
 
 This is exactly what i need even in the entity framework base.  
 Thanks a lot!
-<hr />
+---

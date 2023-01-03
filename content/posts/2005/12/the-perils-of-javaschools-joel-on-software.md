@@ -10,11 +10,15 @@ tags = []
 Once more, I feel good that I didn't waste more time in college. [Joel](http://www.joelonsoftware.com/) roasts the dumbing down of Computer Science [via Java](http://www.joelonsoftware.com/articles/ThePerilsofJavaSchools.html) _(Ones? Zeroes? I only had undecided quanta!)_
 
 ---
-### Comments:
-#### I have seen your blog it is very good. I have seen...
+
+### Comments
+
+#### I have seen your blog it is very good. I have seen…
+
 [Jalpesh Vadgama](https://www.blogger.com/profile/11897824025804539164 "noreply@blogger.com") - <time datetime="2007-04-16T10:33:00.000-05:00">Apr 1, 2007</time>
 
-I have seen your blog it is very good. I have seen your visitors of also you have very good amount of visitors.  
+I have seen your blog it is very good. I have seen your visitors of also you have very good amount of visitors.
   
 So please let me know how to increase users and what should be best way to write technology blog.
-<hr />
+
+---

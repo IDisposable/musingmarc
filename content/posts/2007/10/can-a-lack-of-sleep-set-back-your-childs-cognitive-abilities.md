@@ -14,9 +14,12 @@ Today, I read an article by Po Bronson, who authored an article a while back tha
 So let, no **MAKE**, your kids (and you) get that extra sleep. Read more at: [Can a Lack of Sleep Set Back Your Child's Cognitive Abilities?](http://nymag.com/news/features/38951/)
 
 ---
-### Comments:
-#### Yikes! I'm making Bella go to bed as soon as we ge...
+
+### Comments
+
+#### Yikes! I'm making Bella go to bed as soon as we ge…
+
 [alicewonderland](https://www.blogger.com/profile/03536923447257334780 "noreply@blogger.com") - <time datetime="2007-10-26T15:32:00.000-05:00">Oct 5, 2007</time>
 
 Yikes! I'm making Bella go to bed as soon as we get home. I hope you can catch up on your sleep in a few months. From my experience that's what it takes. In other words, I grok the newborn scene.
-<hr />
+---

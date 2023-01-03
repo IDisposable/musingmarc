@@ -224,10 +224,13 @@ That's pretty clean and easy to understand, right?
 Technorati Tags: [C#](http://technorati.com/tags/C#), [.Net](http://technorati.com/tags/.Net), [CLR](http://technorati.com/tags/CLR), [GetHashCode](http://technorati.com/tags/GetHashCode), [Equals](http://technorati.com/tags/Equals)
 
 ---
-### Comments:
-#### Hi Mark,  
+
+### Comments
+
+#### Hi Mark…
+
 I've posted a follow-up to your post o...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-08-19T01:50:00.000-05:00">Aug 0, 2007</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-08-19T01:50:00.000-05:00">Aug 0, 2007</time>
 
 Hi Mark,  
 I've posted a follow-up to your post on my blog, feel free to check it out.  
@@ -238,9 +241,12 @@ My main point is regarding the performance costs of the ValueType-provided metho
   
 Cheers,  
 Sasha
-<hr />
-#### I think that if you shift and XOR, you end up thro...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-03-08T11:07:00.000-06:00">Mar 6, 2008</time>
+---
+
+#### I think that if you shift and XOR, you end up thro…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-03-08T11:07:00.000-06:00">Mar 6, 2008</time>
 
 I think that if you shift and XOR, you end up throwing away bits. That is, their effect is removed after a few iterations.  
   
@@ -275,9 +281,12 @@ for i in range(1,32) :
 All of the results are distinct.  
   
 Also, I am amazed at your 2-, 3-, 4-, n-parameter hash calculations when you also have the calculation using _params_. Using that exclusively seems like such a better idea.
-<hr />
-#### "The default implementation of the GetHashCode() m...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2008-03-08T14:55:00.000-06:00">Mar 6, 2008</time>
+---
+
+#### "The default implementation of the GetHashCode() m…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2008-03-08T14:55:00.000-06:00">Mar 6, 2008</time>
 
 "The default implementation of the GetHashCode() method similarly bases its answer on the reference handle value."  
   
@@ -318,8 +327,11 @@ then all the structures hash to the same value. If you run it with this line:
 Then all of the structures hash to a different value.  
   
 So I think that you should override the GetHashCode() method of structures because the default implementation is so wrong for the most common case. On the other hand, if the first field were a GUID, then the default implementation would be perfectly okay for use in collection classes.
-<hr />
-#### Your test-case reveals a weakness that I will addr...
+---
+
+#### Your test-case reveals a weakness that I will addr…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-03-08T23:45:00.000-06:00">Mar 6, 2008</time>
 
 Your test-case reveals a weakness that I will address in a follow-up post, but it is in no way a normal test. HashCodes should not be sequential values, nor should only the lowest bits be non-zero. Thus your test is not typical.  
@@ -328,8 +340,11 @@ The weakness is there, and in 2.0 runtime, the combiner uses: ((combinedHash << 
 I've got a post coming about the change and updating the code.  
   
 As to your "amazed" response to the overloads (which I take to be a negative reaction), they are there to eliminate the need to allocate and initialize the int\[\] for the params version when a small number of items exist. This is done in the BCL version as well, both in HashCodeCombiner and in the String.Format.
-<hr />
-#### A struct is a ValueType, not a reference type. The...
+---
+
+#### A struct is a ValueType, not a reference type. The…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-03-09T00:25:00.000-06:00">Mar 0, 2008</time>
 
 A struct is a ValueType, not a reference type. The quote you are using was about reference types.  
@@ -381,4 +396,4 @@ aStruct (c=5): f391c3
 bStruct: f391c0, cStruct: f391c0  
    
 This clearly shows that a reference type's default GetHashCode() is dependant on the handle of the object because assigning the class instance to another class gives the same hash code. For the structs (aka ValueTypes), the value is directly related to the values as changing either the first or last element changes the hash code.
-<hr />
+---

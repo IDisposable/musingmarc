@@ -174,8 +174,11 @@ Here is the revised version of the `CombineHashCodes` methods from my [Utilities
 ```
 
 ---
-### Comments:
-#### Hi. Very interesting post. Thanks.  
+
+### Comments
+
+#### Hi. Very interesting post. Thanks…
+
   
 I have t...
 [Blair Conrad](https://www.blogger.com/profile/17093978353640865561 "noreply@blogger.com") - <time datetime="2008-03-24T09:18:00.000-05:00">Mar 1, 2008</time>
@@ -190,15 +193,21 @@ Second, I noticed the versions of CombineHashCode that you define that take spec
   
 Thanks,  
 Blair
-<hr />
-#### A1) Indeed you do lose bits for high-value hash co...
+---
+
+#### A1) Indeed you do lose bits for high-value hash co…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-03-24T13:58:00.000-05:00">Mar 1, 2008</time>
 
 A1) Indeed you do lose bits for high-value hash code elements, but that is expected behavior. When building a hash code, you are looking to capture the _essence_ of the values as a single 32-bit number. This means information will be lost.  
   
 A2) You are right about the null-checks being missing. For the int versions, that's not a problem, but for the overloads taking an object I am being a bit sloppy. This is mostly because most of my code never has null references... instead I point things at null-object stand-in objects. When deployed in a public library, it would be best to validate them. That said, it's not a big stretch to feel that walking on method up on a call-stack isn't too much to deal with when you attempt a call to GetHashCode() against a null parameter.
-<hr />
-#### Thanks for the response, @IDisposable - it clears ...
+---
+
+#### Thanks for the response, @IDisposable - it clears …
+
+
 [Blair Conrad](https://www.blogger.com/profile/17093978353640865561 "noreply@blogger.com") - <time datetime="2008-03-24T14:51:00.000-05:00">Mar 1, 2008</time>
 
 Thanks for the response, @IDisposable - it clears up some things, but not others. Let me try again.  
@@ -206,15 +215,21 @@ Thanks for the response, @IDisposable - it clears up some things, but not others
 A1: I wasn't perfectly clear here. It's not the lost bits (from the << or the + or the ^) that I'm worried about - it's the "System.OverflowException: Arithmetic operation resulted in an overflow" that I fear will cause problems when certain arguments (like hash1=67108863, for example) are passed into CombineHash, or when the running hash becomes equal to one of those values before being combined with another value.  
   
 A2: I thought that maybe you were being careful about nulls, but thought I'd ask anyhow. And since I work primarily in healthcare, I get a little more worried about having to walk a method up a callstack to identify the source of my null reference after the fact. Still, you've cleared things up - thanks for the info.
-<hr />
-#### A1.1) The System.OverflowException would only be t...
+---
+
+#### A1.1) The System.OverflowException would only be t…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2008-03-24T15:13:00.000-05:00">Mar 1, 2008</time>
 
 A1.1) The System.OverflowException would only be thrown if that block of code was surrounded with a checked block... by default the arithmatic operations on integers is NOT checked. See: [the checked keywork in C#](http://msdn2.microsoft.com/en-us/library/74b4xzyw(vs.71).aspx "checked (C#)")  
   
 A2.2) I understand... an it's an FxCop violation to not check reference parameters for public methods. I do that in production code with my ArgumentValidation suite of methods in the utility class.
-<hr />
-#### A1.1: Ah. I had overlooked that. And I whipped out...
+---
+
+#### A1.1: Ah. I had overlooked that. And I whipped out…
+
+
 [Blair Conrad](https://www.blogger.com/profile/17093978353640865561 "noreply@blogger.com") - <time datetime="2008-03-24T15:53:00.000-05:00">Mar 1, 2008</time>
 
 A1.1: Ah. I had overlooked that. And I whipped out my sample app using SharpDevelop as I don't have Visual Studio at home, and after reading the information you thoughtfully provided and digging a bit more in SharpDevelop, I see that for some reason it ships with overflow checking on by default - hence the exception that I saw.  
@@ -222,8 +237,11 @@ A1.1: Ah. I had overlooked that. And I whipped out my sample app using SharpDeve
 A2.2: Regrettably my team doesn't run checkers like FxCop or anything like that on our code as part of the automated build. Developers are free to do that on their own, and there are code inspections, but it's easy for lax checking to sneak in. Perhaps it's time for me to start proselytizing again...  
   
 Thanks again for spending time with me on this. I've learned stuff and enjoyed the exchange.
-<hr />
-#### Wow! I thought you were mistaken about integer ari...
+---
+
+#### Wow! I thought you were mistaken about integer ari…
+
+
 [Jonathan Gilbert]( "noreply@blogger.com") - <time datetime="2009-11-09T08:54:00.000-06:00">Nov 1, 2009</time>
 
 Wow! I thought you were mistaken about integer arithmetic and checked mode. For years, I've been under the impression that it was enabled by default -- and it turns out I wasn't \_completely\_ wrong:  
@@ -287,9 +305,12 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 This is a surprise to me. I guess you learn something new every day :-)  
   
 Jonathan Gilbert
-<hr />
-#### Wow, finally an easy to understand, well researche...
+---
+
+#### Wow, finally an easy to understand, well researche…
+
+
 [Shaun]( "noreply@blogger.com") - <time datetime="2010-02-19T04:24:46.000-06:00">Feb 5, 2010</time>
 
 Wow, finally an easy to understand, well researched, peer reviewed and verified method for decent hash code generation! Thank you very kindly :)
-<hr />
+---

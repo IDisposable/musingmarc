@@ -37,15 +37,21 @@ The scary part is that this is code from `System.ComponentModel.PropertyDescript
 I would just report this as a bug to Microsoft, but since they have a history of just ignoring bugs (or worse yet, just closing them without reason), I'm not going to waste my time. Not that I could today anyway, since [Microsoft Connect](http://connect.microsoft.com "The blackhole where bugs disappear... look, it's Jimmy Hoffa") doesn't (irony!)
 
 ---
-### Comments:
-#### Perhaps I just don't get the real issue here, but ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-12-13T14:54:00.000-06:00">Dec 3, 2006</time>
+
+### Comments
+
+#### Perhaps I just don't get the real issue here, but …
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-12-13T14:54:00.000-06:00">Dec 3, 2006</time>
 
 Perhaps I just don't get the real issue here, but I don't see how re-ordering the statements would make any difference. Surely it wouldn't be any 'more' threadsafe? (I know there is no such thing as 'more' threadsafe, eiterh it is or it isn't). Also the docs say quite explicitly that the class is not supposed to be threadsafe anyways, i.e. that the caller is responsible for any and all synchronisation needed.  
 ben
-<hr />
-#### Hah, sure don't you remember back in Computer ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2007-01-17T11:39:00.000-06:00">Jan 3, 2007</time>
+---
+
+#### Hah, sure don't you remember back in Computer …
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2007-01-17T11:39:00.000-06:00">Jan 3, 2007</time>
 
 Hah, sure don't you remember back in Computer Science when we studied the "Commutative Property of Code ?" It's just like in math where a + b = b + a.  
   
@@ -59,4 +65,4 @@ call System.Conosle.Out.WriteLine ldarg\_1
 </sarcasm>  
   
 I'm not really taking sides on this issue, but it seemed like a fun thing to say. While I agree with marc I'd order them his way, ben does indeed have a point. The class comes with a disclaimer.
-<hr />
+---

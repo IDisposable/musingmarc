@@ -12,8 +12,8 @@ I loved working with the people I was working with, but the company environment 
 So anyway, I'll miss the guys and gals and I enjoyed the work, but I had to move on.  
 p.s. If anyone ever gets one of the following people at an interview, consider this a good reference (in alphabetical order, no preferences implied; if someone isn't mentioned here it is because I didn't work enough with them to provide a realistic assessment):
 
-*   Shahbaz Chaudhry - Excellent C#, VB.Net, VB6, Oracle, ASP and ASP.Net developer with a great work ethic, quick learner, good communicator
-*   Robert Q. Johnson - Senior development skills in C#, VB6 and ASP.Net. Robert always wants to learn, is a blast to work with, and gets things done.
-*   Kerry Kinkade - The most effective team lead and product manager I've ever worked with and for. Kerry understands how to find the nuggets of good in every project, and how to effectively schedule, manage, and control a project.
-*   Thomas McMahon - Very skilled architect with intimate knowlege of all things .Net and Oracle. I loved working with Tom, as he's got a great outlook on everything and the ability to translate business needs and processes to real system requirements.
-*   Ray Meibaum - Excellent C#, VB6, ASP and ASP.Net developer and analyst. Ray knows how to decompose systems into managable chunks to make applications work. Ray is heads-down and quick.
+* Shahbaz Chaudhry - Excellent C#, VB.Net, VB6, Oracle, ASP and ASP.Net developer with a great work ethic, quick learner, good communicator
+* Robert Q. Johnson - Senior development skills in C#, VB6 and ASP.Net. Robert always wants to learn, is a blast to work with, and gets things done.
+* Kerry Kinkade - The most effective team lead and product manager I've ever worked with and for. Kerry understands how to find the nuggets of good in every project, and how to effectively schedule, manage, and control a project.
+* Thomas McMahon - Very skilled architect with intimate knowlege of all things .Net and Oracle. I loved working with Tom, as he's got a great outlook on everything and the ability to translate business needs and processes to real system requirements.
+* Ray Meibaum - Excellent C#, VB6, ASP and ASP.Net developer and analyst. Ray knows how to decompose systems into managable chunks to make applications work. Ray is heads-down and quick.

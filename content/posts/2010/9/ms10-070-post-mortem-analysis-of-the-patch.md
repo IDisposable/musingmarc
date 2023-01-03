@@ -21,7 +21,8 @@ The analysis is simple:
 
 ### Here's the blow-by-blow review
 
-#### Changes in System.Web
+#### Changes in System.…
+
 
 *   **AssemblyInfo.cs**  
     (v2.0/v3.5) Bump AssemblyFileVersion from 2.0.50272.5014 to 2.0.50727.5053  
@@ -59,7 +60,8 @@ The analysis is simple:
 *   **Util\\VersionInfo.cs** _(v4.0)_  
     Bumped the serialized SystemWebVersion property from 4.0.30319.1 to 4.0.30319.206
 
-#### System.Web.Extensions _(v4.0)_
+#### System.Web.Extensions _(v4.…
+
 
 *   **ScriptResourceHandler.cs**  
     ProcessRequest now catches any exception and throws an undistinguished 404 error.  
@@ -70,23 +72,35 @@ The analysis is simple:
     Bumped the build revision from 1 to 206
 
 ---
-### Comments:
-#### Very interesting! Thanks!
+
+### Comments
+
+#### Very interesting! Than…
+
 [Greg Bray]( "noreply@blogger.com") - <time datetime="2010-09-28T20:52:06.000-05:00">Sep 2, 2010</time>
 
 Very interesting! Thanks!
-<hr />
-#### awesome! thanks!
+---
+
+#### awesome! than…
+
+
 [Shiva]( "noreply@blogger.com") - <time datetime="2010-09-29T05:23:00.000-05:00">Sep 3, 2010</time>
 
 awesome! thanks!
-<hr />
-#### Fantastic, thanks for taking the time to look this...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2010-09-29T12:26:08.000-05:00">Sep 3, 2010</time>
+---
+
+#### Fantastic, thanks for taking the time to look this…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2010-09-29T12:26:08.000-05:00">Sep 3, 2010</time>
 
 Fantastic, thanks for taking the time to look this over. You're referenced on StackOverflow.com: http://stackoverflow.com/questions/3824125/how-was-the-oracle-padding-attack-on-asp-net-fixed/3824238
-<hr />
-#### Very nice detailed info, saved me the trouble from...
+---
+
+#### Very nice detailed info, saved me the trouble from…
+
+
 [eglasius]( "noreply@blogger.com") - <time datetime="2010-09-29T13:12:34.000-05:00">Sep 3, 2010</time>
 
 Very nice detailed info, saved me the trouble from opening it :)  
@@ -94,28 +108,40 @@ Very nice detailed info, saved me the trouble from opening it :)
 As I mentioned in the stackoverflow question @Guest linked to, imho the main fix was to sign any encrypted data that is sent to the browser.  
   
 Others are there for compatibility, further try to prevent side channels and take out the unnecessary risk of non js files exposure. Not saying these aren't important, specially since what the impact the researches claimed was only possible because of the web.config exposure and having the machine keys in it: http://eglasius.blogspot.com/2010/09/aspnet-padding-oracle-how-it-relates-to.html. Note that was confirmed in a public tweet response by one of the researches, they didn't break features that had validation until they got the keys from the web.config (which was the default in DotNetNuke, which is supposed to have 600k+ installs out there)
-<hr />
-#### Couple of clarifications: 1) Although calls to Enc...
+---
+
+#### Couple of clarifications: 1) Although calls to Enc…
+
+
 [pitz]( "noreply@blogger.com") - <time datetime="2010-09-30T13:09:15.000-05:00">Sep 4, 2010</time>
 
 Couple of clarifications:  
 1) Although calls to EncryptOrDecryptData without specifying an initialization vector type now defaults to IVType.Random, the calls coming from Page and the resource handlers (going through Page) still specify Hash as the IV type.  
 2) VerifyHashedData is new and doesn't fast-abort on a mismatch. This is not the original padding check that's within the crypto services, so the crypto services are still "susceptible" to timing attacks. However, the HMAC hash verification is performed before the padding check and the attacks would fail there even before reaching the crypto services.
-<hr />
-#### WRT preventing leaks. They may have improved it bu...
+---
+
+#### WRT preventing leaks. They may have improved it bu…
+
+
 [Yaron Naveh]( "noreply@blogger.com") - <time datetime="2010-10-01T12:30:31.000-05:00">Oct 5, 2010</time>
 
 WRT preventing leaks. They may have improved it but I do not see how it is possible in 100%. If someone tampers with data (let's say it is not signed) and it is not a valid data for the algorithm to decrypt then this is one type of error. If the data is valid and now the application needs to decide it had decrypted nonsense this is another type. There will always be a side channel (e.g. time) that leaks. Unless they use random sleep?  
   
 Also why does using a random IV help? AFAIK the attacker guesses the IV and does not assume anything about it anyway.
-<hr />
-#### Great post! Thanks
+---
+
+#### Great post! Tha…
+
+
 [Waleed Eissa]( "noreply@blogger.com") - <time datetime="2010-10-07T03:54:11.000-05:00">Oct 4, 2010</time>
 
 Great post! Thanks
-<hr />
-#### Thank you for this post. We are running something ...
+---
+
+#### Thank you for this post. We are running something …
+
+
 [Min]( "noreply@blogger.com") - <time datetime="2011-02-18T17:19:32.243-06:00">Feb 5, 2011</time>
 
 Thank you for this post. We are running something that uses aspnet Membership provider passwords directly, and this was helpful in knowing how to call the changed EncryptOrDecryptData call.
-<hr />
+---

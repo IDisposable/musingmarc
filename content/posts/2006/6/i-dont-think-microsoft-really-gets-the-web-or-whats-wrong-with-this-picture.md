@@ -13,9 +13,12 @@ Go to [this](http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.
 In what reality is rendering a 1.02 **megabyte**, 3120 line page reasonable? Certainly not over the web! No wonder all these MSDN2 pages take forever to render.
 
 ---
-### Comments:
-#### So, do you think that you are better than that?, s...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-06-20T03:50:00.000-05:00">Jun 2, 2006</time>
+
+### Comments
+
+#### So, do you think that you are better than that?, s…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-06-20T03:50:00.000-05:00">Jun 2, 2006</time>
 
 So, do you think that you are better than that?, start up fiddler, an test the relevant page, and test you of blog-page.  
   
@@ -23,8 +26,10 @@ The MSDN page makes 14 request, but yours uses 67 request.. that's a lot.
 The total downloaded amount from MSDN is 1149437 bytes in my case, and from your page it is 711906, not very big difference. And it takes even longer to render than MSDN because of all the silly stuff on the page.  
 So, clean your own backyard before yelling on others..  
 (I know you are using blogger, so you are not guilty of the full page, but alas..)
-<hr />
-#### To be fair, you should compare a single-post page ...
+---
+
+#### To be fair, you should compare a single-post page …
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-06-20T09:24:00.000-05:00">Jun 2, 2006</time>
 
 To be fair, you should compare a single-post page to a single article page from MSDN. This post, for example is just 211K. Most of that is the blogroll on the right side of the page which I am thinking of eliminating and that is served dynamically as the page is rendered, not inline HTML.  
@@ -32,20 +37,28 @@ To be fair, you should compare a single-post page to a single article page from 
 As you note, much of the rest is due to the fact that this is hosted by Blogger.  
   
 My own ASP.Net pages rarely have viewstate over 150 bytes, unlike the MSDN pages, and the my page menus nodes are dynamically loaded on demand, unlike the enormous MSDN treeview, which is present, and **redownloaded** for each page.
-<hr />
-#### The VIEWSTATE size is ~130kb! And the Html+JS code...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-06-26T22:12:00.000-05:00">Jun 1, 2006</time>
+---
+
+#### The VIEWSTATE size is ~130kb! And the Html+JS code…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-06-26T22:12:00.000-05:00">Jun 1, 2006</time>
 
 The VIEWSTATE size is ~130kb! And the Html+JS code size for the tree ~836Kb! Well, that's not nice! :D
-<hr />
-#### Note that the HTML downloaded for the table of con...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-06-30T03:35:00.000-05:00">Jun 5, 2006</time>
+---
+
+#### Note that the HTML downloaded for the table of con…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-06-30T03:35:00.000-05:00">Jun 5, 2006</time>
 
 Note that the HTML downloaded for the table of contents is only displaying the table of contents that you see. Whenever you expand a node, it retrieves more and redraws the table of contents. Unfortunately, the System.Web.UI.WebControls namespace is huge with hundreds of classes.
-<hr />
-#### Hey Marc,  
+---
+
+#### Hey Marc…
+
 Well I'm glad you pointed this out, i...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-06-30T14:53:00.000-05:00">Jun 5, 2006</time>
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-06-30T14:53:00.000-05:00">Jun 5, 2006</time>
 
 Hey Marc,  
 Well I'm glad you pointed this out, it shocked me too. I did some digging around here at MS and got an answer as to what's being done about it. Here's the reply from the MSDN doc team. -Noah  
@@ -57,16 +70,22 @@ Next, we are planning several changes in August that should address the root cau
 Lastly, I’ve asked a few folks to consider deepening the managed ref TOC such that namespaces were nested instead of all lying flat as they do today and that may be something considered for Orcas.  
   
 Please keep in mind that the CSS adapter may not pan out perfectly (it has a strange habit of trying to expand every single node) and it may an iframe rather than an Atlas panel in August. The underlying message remains the same: we know these are big pages and we are trying to get that size down.
-<hr />
-#### Noah, thanks for dropping the teasers about the up...
+---
+
+#### Noah, thanks for dropping the teasers about the up…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-06-30T18:38:00.000-05:00">Jun 5, 2006</time>
 
 Noah, thanks for dropping the teasers about the upcoming changes. **Mostly**, though, I appreciate knowing that Microsoft is listening. We're out here on the front lines trying to "do it the Microsoft way", and lately I've been feeling that something is out of sync. Your (and other Microsoft people I've been in contact with lately) interest, openness and efforts to really deal with these issues is a new and exciting change.
-<hr />
-#### Ack! Did someone from microsoft say GZIP? as in GN...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-18T12:21:00.000-05:00">Aug 5, 2006</time>
+---
+
+#### Ack! Did someone from microsoft say GZIP? as in GN…
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-18T12:21:00.000-05:00">Aug 5, 2006</time>
 
 Ack! Did someone from microsoft say GZIP? as in GNU Zip? Haha. Sorry, I couldn't resist. Where's our copy of the GPL with that gzipping algorithm?  
   
 Ok. I'm done. That was fun.
-<hr />
+---

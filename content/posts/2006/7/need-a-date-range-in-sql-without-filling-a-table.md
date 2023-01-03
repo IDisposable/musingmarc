@@ -53,13 +53,19 @@ Some notes on this:
 5.  Doing the `DATEADD` in the order of year, then month, then days is **very** important as it insure that the correct leap-day rule is followed.
 
 ---
-### Comments:
-#### Very useful. Cheers!
-[Anonymous]( "noreply@blogger.com") - <time datetime="2006-08-03T10:44:00.000-05:00">Aug 4, 2006</time>
+
+### Comments
+
+#### Very useful. Chee…
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2006-08-03T10:44:00.000-05:00">Aug 4, 2006</time>
 
 Very useful. Cheers!
-<hr />
-#### I think my method is easier to read ...  
+---
+
+#### I think my method is easier to read ..…
+
+
   
 DEC...
 [Tom Øyvind Hogstad](https://www.blogger.com/profile/14958448086518497717 "noreply@blogger.com") - <time datetime="2006-09-08T06:40:00.000-05:00">Sep 5, 2006</time>
@@ -86,13 +92,19 @@ SELECT MyDate FROM Dates
 OPTION(MAXRECURSION 0)  
   
 And theres really not much of a speed difference :-)
-<hr />
-#### However your version only works with SQL Server 20...
+---
+
+#### However your version only works with SQL Server 20…
+
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-09-08T11:59:00.000-05:00">Sep 5, 2006</time>
 
 However your version only works with SQL Server 2005 (because of the Common Table Expressions), whereas mine works with just about any SQL engine (including Oracle, DB2, Informix, MySQL, and SQL Server 2000).
-<hr />
-#### Thanks Mark and Tom,  
+---
+
+#### Thanks Mark and Tom…
+
+
   
 With just a little bit...
 [Phillip](https://www.blogger.com/profile/01263659264930752471 "noreply@blogger.com") - <time datetime="2008-05-01T10:53:00.000-05:00">May 4, 2008</time>
@@ -102,16 +114,22 @@ Thanks Mark and Tom,
 With just a little bit of tinkering, I got a min and max date out of my dataset, created a temp table through these dates, and then inner joined to it on mydate between the startdate and enddate of each record in the dataset.  
   
 Really made it simple to turn a large dataset with date ranges into an even larger dataset with a record for each date.
-<hr />
-#### Nice Post, very helpfull. Karl
+---
+
+#### Nice Post, very helpfull. K…
+
+
 [Karl](http://www.directplanning.com "noreply@blogger.com") - <time datetime="2009-05-19T04:22:00.000-05:00">May 2, 2009</time>
 
 Nice Post, very helpfull.  
   
 Karl
-<hr />
-#### Nice post, very helpful.
+---
+
+#### Nice post, very helpf…
+
+
 [not Karl]( "noreply@blogger.com") - <time datetime="2009-10-31T17:07:19.000-05:00">Oct 6, 2009</time>
 
 Nice post, very helpful.
-<hr />
+---

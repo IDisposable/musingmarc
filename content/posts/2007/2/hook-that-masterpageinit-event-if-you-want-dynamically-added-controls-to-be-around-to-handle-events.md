@@ -14,14 +14,20 @@ You want to hook the `base.Master.Init` event. See [this great post](http://lnbo
 [![](http://imagegen.last.fm/DarkSeas/recenttracks/1/IDisposable.gif)](http://www.last.fm/user/IDisposable/?chartstyle=DarkSeas)
 
 ---
-### Comments:
-#### refering to a dead link...
+
+### Comments
+
+#### refering to a dead link…
+
 [bjornoyvind]( "noreply@blogger.com") - <time datetime="2011-07-05T13:07:56.040-05:00">Jul 2, 2011</time>
 
 refering to a dead link...
-<hr />
-#### Thanks, fixed the link-rot.
+---
+
+#### Thanks, fixed the link-r…
+
+
 [Marc Brooks]( "noreply@blogger.com") - <time datetime="2011-07-05T13:10:25.845-05:00">Jul 2, 2011</time>
 
 Thanks, fixed the link-rot.
-<hr />
+---

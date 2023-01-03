@@ -26,18 +26,27 @@ So with the recent discussion on the ADVANCED-DOTNET list, I offered and was ask
 [Download here.](http://idisposable.googlepages.com/downloads)
 
 ---
-### Comments:
-#### I've hosted this project on CodePlex. See[](...</x-turndown)
+
+### Comments
+
+#### I've hosted this project on CodePlex. See[](...</x-turndo…
+
 [IDisposable](https://www.blogger.com/profile/02275315449689041289 "noreply@blogger.com") - <time datetime="2006-12-29T02:41:00.000-06:00">Dec 5, 2006</time>
 
 I've hosted this project on CodePlex. See [this](http://musingmarc.blogspot.com/2006/12/ifilter-text-extracter-now-hosted-on.html).
-<hr />
-#### It might be possible, but I haven't played wit...
+---
+
+#### It might be possible, but I haven't played wit…
+
+
 [Marc Brooks]( "noreply@blogger.com") - <time datetime="2010-10-07T21:41:08.000-05:00">Oct 4, 2010</time>
 
 It might be possible, but I haven't played with this stuff in a long time...
-<hr />
-#### Hi Marc, I've tried your ifilter implementat...
+---
+
+#### Hi Marc, I've tried your ifilter implementat…
+
+
 [wei min](https://www.blogger.com/profile/00522527175294915943 "noreply@blogger.com") - <time datetime="2011-11-16T21:39:37.228-06:00">Nov 3, 2011</time>
 
 Hi Marc,  
@@ -47,8 +56,11 @@ I've tried your ifilter implementation for c++ and it works great for most cases
 However, i've encountered a problem with the latest pdf 10.1 ifilter. It seems to fail at loadIFilter. The strange thing is that this ifilter works fine for windows search. Btw, I tested it on Win7, not sure if this would affect anything.  
   
 Any ideas?
-<hr />
-#### Hi Marc, I've tried your ifilter implementat...
+---
+
+#### Hi Marc, I've tried your ifilter implementat…
+
+
 [wei min](https://www.blogger.com/profile/00522527175294915943 "noreply@blogger.com") - <time datetime="2011-11-16T21:40:37.738-06:00">Nov 3, 2011</time>
 
 Hi Marc,  
@@ -58,9 +70,12 @@ I've tried your ifilter implementation for c++ and it works great for most cases
 However, i've encountered a problem with the latest pdf 10.1 ifilter. It seems to fail at loadIFilter. The strange thing is that this ifilter works fine for windows search. Btw, I tested it on Win7, not sure if this would affect anything.  
   
 Any ideas?
-<hr />
-#### Adobe Reader 10 (X) does not come with an IFilter ...
-[Anonymous]( "noreply@blogger.com") - <time datetime="2012-02-07T15:59:20.881-06:00">Feb 2, 2012</time>
+---
+
+#### Adobe Reader 10 (X) does not come with an IFilter …
+
+
+[Anonymous](mailto:noreply@blogger.com) - <time datetime="2012-02-07T15:59:20.881-06:00">Feb 2, 2012</time>
 
 Adobe Reader 10 (X) does not come with an IFilter anymore. Only the 9.5 version does.
-<hr />
+---
