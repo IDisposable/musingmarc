@@ -1,0 +1,25 @@
+baseURL = 'https://dev.musingmarc.org/'
+languageCode = 'en-us'
+title = "Marc's Musings"
+theme = 'ananke'
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 16
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = ['updated', ':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/IDisposable"
